@@ -17,7 +17,7 @@ public class ServicoTarefa {
         return repositorio.save(tarefa);
     }
 
-    public List<Tarefa> findAll(){
+    public List<Tarefa> listar(){
         return repositorio.findAll();
     }
 
