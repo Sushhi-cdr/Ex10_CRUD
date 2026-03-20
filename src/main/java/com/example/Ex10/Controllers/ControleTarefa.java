@@ -28,7 +28,7 @@ public class ControleTarefa {
     public Tarefa buscarPorId(@PathVariable Long id){
         return servico.buscarPorId(id);
     }
-    
+
     @DeleteMapping("/{id}")
     public void deletar(@PathVariable Long id){
         servico.deletar(id);
